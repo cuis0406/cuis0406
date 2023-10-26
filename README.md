@@ -8,5 +8,8 @@ Dara pre-processing:
 1. I read the files "train.csv" and "add_train.csv" and used them together as a training set.
 2. I performed outlier detection and replacement operations and used category-based median interpolation for numeric data. For nominal type data, I used the "mode".
 3. Standardization of data
-4. Training model. hyperparameters n_neighbors=7 for KNN model.
-5. Predictions are made on the test set using integrated models, selected dt, rf, knn, bayes models, and hard voting methods.
+
+Train model and predict:
+
+1. Training model, hyperparameters n_neighbors=7 for KNN model.
+2. Predictions are made on the test set using integrated models, selected dt, rf, knn, bayes models, and hard voting methods.
